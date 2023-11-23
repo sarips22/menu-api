@@ -16,7 +16,7 @@ const getTiendasXcercania = (req, res) => __awaiter(void 0, void 0, void 0, func
     let query = 'SELECT *' +
         'FROM tiendas ' +
         'INNER JOIN ubicaciones ' +
-        'ON tiendas.id_tienda =ubicaciones.id_tp ' +
+        'ON tiendas.id_tienda =ubicaciones.id_ubicacion ' +
         'WHERE ST_DWithin(ubicaciones.xy, ST_SetSRID(ST_MakePoint(-99.67688542843177, 19.28662076007736), 4326), 0.10);';
     try {
         const response = yield database_1.pool.query(query);
