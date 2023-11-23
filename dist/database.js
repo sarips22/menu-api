@@ -15,10 +15,10 @@ export const pool = new Pool({
 */
 //external url de render
 exports.pool = new pg_1.Pool({
-    user: 'davidmillan',
-    host: 'dpg-ckuhmr237rbc738ccnq0-a.oregon-postgres.render.com',
-    password: 'D3zujgTZLkwBCPSowXCPzLBqFAEi27m8',
-    database: 'menusdb',
+    user: 'sarapinete',
+    host: 'dpg-cl6kohph9grs738n43a0-a.oregon-postgres.render.com',
+    password: 'IujcewcpFqZuumGr3IsABqIk7wDdAIWt',
+    database: 'firstapi',
     port: 5432,
     ssl: true
 });
